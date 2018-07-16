@@ -1,5 +1,5 @@
 {
-  "name": "rpscript-api-fs-extra",
+  "name": "@typecasting/rpscript-api-fs-extra",
   "version": "0.1.0",
   "description": "RPScript API for fs-extra",
   "keywords": [
@@ -18,12 +18,11 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "test": "mocha -r ts-node/register test/**.ts",
-    "publish": "tsc && npm publish"
+    "test": "mocha -r ts-node/register test/**.ts"
   },
   "dependencies": {
     "fs-extra": "^6.0.1",
-    "rpscript-interface": "^0.5.3"
+    "rpscript-interface": "^0.6.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",

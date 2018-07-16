@@ -1,10 +1,9 @@
-/**
- * @module fs-extra
- */
-
 import fsExtra from 'fs-extra';
 import {RpsContext,RpsModule,rpsAction} from 'rpscript-interface';
 
+/** FSExtra Module
+ * @namespace FS-Extra
+*/
 @RpsModule("fs-extra")
 export default class RPSFsExtra {
 
